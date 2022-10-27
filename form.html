@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="../Css/form.css">
+</head>
+
+<body>
+
+
+    <div class="formcont">
+
+        <form action="#" name="myform" method="post">
+
+            <div>
+                <label for="First Name"><b>First Name :</b></label>
+                <input id="id1" type="text" class="form-control" name="fnmae" autocomplete="off">
+                <span id="fn1"></span>
+            </div>
+
+            <div>
+                <label><b>Middle Name :</b></label>
+                <input id="id2" type="text" class="form-control" name="fnmae" autocomplete="off">
+                <span id="mn1"></span>
+            </div>
+            <div>
+                <label><b>Last Name :</b></label>
+                <input id="id3" type="text" class="form-control" name="fnmae" autocomplete="off">
+                <span id="ln1"></span>
+            </div>
+
+            <div>
+                <label><b>Mobile Number :</b></label>
+                <input id="id4" type="number" class="form-control" name="fnmae" autocomplete="off">
+                <span id="mb0"></span>
+            </div>
+
+            <div>
+                <label><b>Date of Birth :</b></label>
+                <input id="id5" type="date" class="form-control" name="fnmae" autocomplete="off">
+                <span id="dob"></span>
+            </div>
+            <div>
+                <label><b>password:</b></label>
+                <input id="id6" type="password" class="form-control" name="fnmae" autocomplete="off">
+                <span id="aan"></span>
+            </div>
+
+            <div>
+                <label><b>Address :</b></label>
+                <input id="id7" type="text" class="form-control" name="fnmae" autocomplete="off">
+                <span id="add1"></span>
+            </div>
+
+            <div>
+                <label><b>Email :</b></label>
+                <input id="id8" type="email" class="form-control" name="fnmae" autocomplete="off">
+                <span id="emaill"></span>
+            </div>
+
+
+            <div class="gender" required>
+                <label><b>Gender :</b></label>
+                <input id="male" type="radio" class="form-check-input" name="doo" >
+                <label class="form-check-label" for="radio1">MALE</label>
+
+                <input id="male" type="radio" class="form-check-input" name="doo" >
+                <label class="form-check-label" for="radio1">FEMALE</label>
+
+            </div>
+
+            <button type="button" onclick="validation()"><b>SUBMIT</b></button>
+
+
+        </form>
+    </div>
+
+
+    <div class="bubbles">
+        <span class="one"></span>
+        <span class="two"></span>
+        <span class="three"></span>
+        <span class="four"></span>
+        <span class="five"></span>
+        <span class="six"></span>
+        <span class="seven"></span>
+        <span class="seven"></span>
+    </div>
+    <div class="bubbles">
+        <span class="one"></span>
+        <span class="two"></span>
+        <span class="three"></span>
+        <span class="four"></span>
+        <span class="five"></span>
+        <span class="six"></span>
+        <span class="seven"></span>
+        <span class="seven"></span>
+    </div>
+    <div class="bubbles">
+        <span class="one"></span>
+        <span class="two"></span>
+        <span class="three"></span>
+        <span class="four"></span>
+        <span class="five"></span>
+        <span class="six"></span>
+        <span class="seven"></span>
+        <span class="seven"></span>
+    </div>
+    <div class="bubbles">
+        <span class="one"></span>
+        <span class="two"></span>
+        <span class="three"></span>
+        <span class="four"></span>
+        <span class="five"></span>
+        <span class="six"></span>
+        <span class="seven"></span>
+        <span class="seven"></span>
+    </div>
+</body>
+<script src="../javascript/form.js"></script>
+<script type="text/javascript">
+    VanillaTilt.init(document.querySelector(".formcont"), {
+        max: 25,
+        speed: 400,
+        // glare: true,
+        // "max-glare": 0.2,
+    });
+
+    VanillaTilt.init(document.querySelectorAll(".formcont"));
+</script>
+
+</html>
